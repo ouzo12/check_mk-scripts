@@ -7,10 +7,11 @@ and will not be shown.
 Every server running this script will download newest ipstatus from snds every 12 hours (720min).
 
 - require - bc command to run.
+          - ip adresses added to your snds account
 
 ## Install info
 
-signup at microsoft snds at
+signup at microsoft snds at or just login
 https://postmaster.live.com/snds/
 ------
 Edit Profile
