@@ -1,6 +1,14 @@
-This script require the bc command to run.
+# snds_check.sh 
 
-Install info
+This script is made to run locally on each agent server.
+It will find the local ip's and scan them all for snds block.
+
+Having this check running on many servers
+
+- require - bc command to run.
+
+
+## Install info
 
 signup at microsoft snds at
 https://postmaster.live.com/snds/
@@ -22,7 +30,4 @@ copy the script to check_mk dir
 	cp snds_check.sh /usr/lib/check_mk_agent/local/7200/
 
 Then update servers services in check_mk
-
-
-SCRIPT WILL SOON BE ADDED... Sorry for the readme file only.
 

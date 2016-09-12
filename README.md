@@ -7,3 +7,6 @@ All my scripts for check-mk should be in this git project.
 ## server-check
 - shold be placed local on the check_mk server.
 
+## notification
+- notifications script for slack, pushbullet and more
+
