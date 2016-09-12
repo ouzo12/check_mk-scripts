@@ -6,8 +6,9 @@ and will not be shown.
 
 Every server running this script will download newest ipstatus from snds every 12 hours (720min).
 
-- require - bc command to run.
-          - ip adresses added to your snds account
+Require:
+- bc command to run.
+- ip adresses added to your snds account
 
 ## Install info
 
