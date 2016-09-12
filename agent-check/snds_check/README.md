@@ -1,12 +1,12 @@
 # snds_check.sh 
 
 This script is made to run locally on each agent server.
-It will find the local ip's and scan them all for snds block.
+It will find the local ip's and scan them all for snds block, ipv6 are not supported by snds at the moment,
+and will not be shown.
 
-Every server running this script will download newest ipstatus from snds every 4 hours.
+Every server running this script will download newest ipstatus from snds every 12 hours (720min).
 
 - require - bc command to run.
-
 
 ## Install info
 
@@ -31,3 +31,4 @@ copy the script to check_mk dir
 
 Then update servers services in check_mk
 
+You should now have a service on the server called SNDS-Local
