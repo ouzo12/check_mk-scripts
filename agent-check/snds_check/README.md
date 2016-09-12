@@ -3,7 +3,7 @@
 This script is made to run locally on each agent server.
 It will find the local ip's and scan them all for snds block.
 
-Having this check running on many servers
+Every server running this script will download newest ipstatus from snds every 4 hours.
 
 - require - bc command to run.
 
