@@ -62,10 +62,10 @@ for H in $myhostip; do
 done
 
 if [ $counter -gt 0 ]; then
-	echo "$ipcount found at SNDS"
+	echo "$ipcount Listed at Microsoft SNDS"
 	exit 2
 	 else
-	echo "OK - Server ip - ($myhostip) are not listed at SNDS"
+	echo "OK - Server ip - ($myhostip) are not listed at Microsoft SNDS"
 	exit 0
 fi
 else
